@@ -1,0 +1,42 @@
+body {
+	background-color: #333;
+	margin: 0;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#container {
+	position: relative;
+	width: 1000px;
+	height: 400px;
+}
+
+
+#imgWrapper {
+	position: relative;
+	margin-top: -400px;
+	z-index: -1;
+}
+
+#slider {
+	position: relative;
+	width: 950px;
+	top: 20px;
+	left: 25px;
+}
+
+#pBtn {
+	position: relative;
+	top: 50px;
+	left: 25px;
+}
+
+.ui-slider .ui-slider-handle {
+	width: 40px !important;
+	margin-left: -20px !important;
+	height: 40px !important;
+	margin-top: -10px !important;
+}
