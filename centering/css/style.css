@@ -10,7 +10,7 @@ html, body {
 }
 .box {
     position: absolute;
-    visibility: hidden;
+    /*visibility: hidden;*/
 }
 
 .blue {
